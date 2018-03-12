@@ -7,8 +7,20 @@
 
     <script src="./scripts/client.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/all.css">
+    
 </head>
 <body>
-    hello world
+    <header>
+        OsloBySykkel
+        <nav>
+            <a href="./views/stations.html">Stations</a>
+        </nav>
+    </header>
+    
+    <button class="stations" onclick="buttonPressed(this)">Stations</button>
+    <button class="stations/availability" onclick="buttonPressed(this)">Bikes Available</button>
+    <button class="status" onclick="buttonPressed(this)">Operational status</button>
+
+    <div class="content"></div>
 </body>
 </html>
